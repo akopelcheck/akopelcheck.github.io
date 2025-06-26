@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+   --bg: #FFF;
+  --dark-bg: #000;
+  --bgAccent1: #F5F5F5;
+  --dark-bgAccent1: #0F0F0F;
+  --bgAccent2: #FAFAFA;
+  --dark-bgAccent2: #181818;
+  --text: #000;
+  --dark-text: #FEFEFE;
+  --subleText: #909090;
+  --dark-subtleText: #4A4A4A;
+  --scarlet: #BB0000;
+}
+[data-theme='dark'] {
+  --bg: var(--dark-bg);
+  --bgAccent1: var(--dark-bgAccent1);
+  --bgAccent2: var(--dark-bgAccent2);
+  --text: var(--dark-text);
+  --subtleText: var(--dark-subtleText);
+}

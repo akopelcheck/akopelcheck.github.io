@@ -1,3 +1,17 @@
 .Home {
   text-align: center;
+  color: var(--text);
+  background-color: var(--bgAccent1);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  transition: all .5s;
+}
+button {
+  color: var(--text);
+  background-color: var(--bgAccent2);
+  border: 2px var(--text) solid;
+  float: right;
+  transition: all .5s;
 }
