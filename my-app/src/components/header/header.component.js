@@ -14,44 +14,60 @@ function Header(){
                     <img
                     alt=""
                     src={require('../../img/icon-me.png')} 
-                    width="70"
-                    height="70"
-                    className="d-inline-block align-center text-white me-4"
-                    />{''}
+                    width="50"
+                    height="50"
+                    className="d-inline-block align-sub text-white me-4"
+                    />
                 </Navbar.Brand>
                 <Navbar.Brand className="text-white nav-element me-4" href="#home">About Me!</Navbar.Brand>
-                
                 <div class="vr me-4 nav-separator"></div>
 
-                <img
-                    alt=""
-                    src={require('../../img/experience-icon.png')} 
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-center text-white me-4"
-                    />
-                <Navbar.Brand className="text-white nav-element me-4" href="#home">Experience</Navbar.Brand>
-                
+                <div>
+                    <Navbar.Brand href="#home">
+
+                    <img
+                        alt=""
+                        src={require('../../img/experience-icon.png')} 
+                        width="25"
+                        height="25"
+                        className="d-inline-block align-sub text-white me-4"
+                        />
+
+                    <Navbar.Brand className="text-white nav-element me-4" href="#home">Experience</Navbar.Brand>
+                </Navbar.Brand>
+
+                </div>
                 <div class="vr me-4 nav-separator"></div>
-                <img
-                    alt=""
-                    src={require('../../img/skills-icon.png')} 
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-center text-white me-4"
-                    />
-                    
-                <Navbar.Brand className="text-white nav-element me-4" href="#home">Skills</Navbar.Brand>
+                <div>
+                    <Navbar.Brand href="#home">
+
+                    <img
+                        alt=""
+                        src={require('../../img/skills-icon.png')} 
+                        width="25"
+                        height="25"
+                        className="d-inline-block align-sub text-white me-4"
+                        />
+                        
+                    <Navbar.Brand className="text-white nav-element me-4" href="#home">Skills</Navbar.Brand>
+                    </Navbar.Brand>
+
+                </div>
                <div class="vr me-4 nav-separator"></div>
+               <div>
+                <Navbar.Brand href="#home">
+
                 <img
                     alt=""
                     src={require('../../img/project-icon.png')} 
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-center text-white me-4"
+                    width="25"
+                    height="25"
+                    className="d-inline-block align-sub text-white me-4"
                     />
                 <Navbar.Brand className="text-white nav-element me-4" href="#home">Projects</Navbar.Brand>
+                </Navbar.Brand>
 
+                </div>
             </Container>
         </Navbar>
     );

@@ -8,8 +8,21 @@
     align-items: start;    
 }
 
+@media (max-width: 640px){
+  .header { 
+    overflow-y:hidden;
+    overflow-x:scroll;
+    text-wrap: nowrap;
+  }
+  .my-nav {
+    height: 70px; 
+    width: 600px; 
+  }
+}
+
 .nav-element {
-    font-size: 23px !important;
+    font-size: 20px !important;
+    font-weight: normal;
     color: var(--text);
     /*font-family: 'Courier New', monospace;*/
 }
