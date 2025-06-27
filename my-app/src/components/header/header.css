@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--bgAccent2);
+    color: var(--text);
+    border-radius: 80px;
+    /*padding: 20px;*/
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    align-items: start;    
+}
+
+.nav-element {
+    font-size: 23px !important;
+    color: var(--text);
+    /*font-family: 'Courier New', monospace;*/
+}
+
+.nav-separator {
+    height: 40px;
+    align-self: center !important;
+}
+

@@ -1,7 +1,8 @@
 import './home-page.css';
 import Card from '../../components/card/card.component'
 import useLocalStorage from 'use-local-storage'
-
+import Header from '../../components/header/header.component'
+import ImageCard from '../../components/img-card/img-card.component';
 
 function Home() {
 
@@ -15,11 +16,11 @@ function Home() {
 
   return (
     <div className="Home" data-theme={theme}>
+      <Header />
       <h1>Alexandra Kopelcheck</h1>
-      <Card />
-      <button onClick={switchTheme}>
+      {/* <button onClick={switchTheme}>
         Switch to {theme === 'light' ? 'dark' : 'light'} theme
-      </button>
+      </button> */}
     </div>
   );
 }
