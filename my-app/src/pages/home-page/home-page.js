@@ -15,7 +15,7 @@ function Home() {
   }
 
   return (
-    <div className="Home" data-theme={theme}>
+    <div className="Home" data-theme='dark'>
       <Header />
       <h1>Alexandra Kopelcheck</h1>
       {/* <button onClick={switchTheme}>
