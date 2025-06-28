@@ -1,0 +1,135 @@
+.Experience {
+  text-align: center;
+  color: var(--text);
+  background-color: var(--bgAccent1) !important;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 30px;
+  transition: all .5s;
+  position:absolute;
+  height: auto;
+  width: 100%;
+  
+}
+
+@media (max-width: 640px){
+  .timeline-year-1 {
+    visibility: hidden;
+  }
+
+  .timeline-year-2 {
+    visibility: hidden;
+  }
+
+  .timeline-year-3 {
+    visibility: hidden;
+  }
+}
+
+.exp-page {
+  background-color: var(--bgAccent3) !important;
+  border-radius: 20px !important;
+  height: auto;
+  padding-bottom: 20px;
+
+}
+
+.timeline-container {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  height: 100%;  
+  width: 4px;
+  background: #ffffff;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+
+.timeline-year-1 {
+    background-color: var(--bgAccent2) !important;
+    margin-top: 16.8%;
+    position: absolute;
+    left: 47%;
+    width:auto;
+    height: auto;
+    padding:15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+.timeline-year-2 {
+    background-color: var(--bgAccent2) !important;
+    margin-top: 45%;
+    position: absolute;
+    left: 47%;
+    width:auto;
+    height: auto;
+    padding:15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 1px;
+}
+
+
+.timeline-year-3 {
+    background-color: var(--bgAccent2) !important;
+    margin-top: 70%;
+    position: absolute;
+    left: 47%;
+    width:auto;
+    height: auto;
+    padding:15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 1px;
+}
+.timeline-row {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.timeline-col-nationwide {
+  position: relative;
+  z-index: 2;
+margin-top: 10%;
+
+}
+.timeline-col-nwsw {
+  position: relative;
+  z-index: 2;
+  margin-top: 28%;
+}
+.timeline-col-dsl {
+  position: relative;
+  z-index: 2;
+  margin-top: 40%;
+
+}
+.timeline-col-willowtree {
+  position: relative;
+  z-index: 2;
+  margin-top: 8%;
+
+}
+.timeline-item {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+
+.timeline-item.left {
+  margin-left: auto;
+  padding-right: 30px;
+}
+
+.timeline-item.right {
+  margin-right: auto;
+  padding-left: 30px;
+}

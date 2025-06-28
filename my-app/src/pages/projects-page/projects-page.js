@@ -16,7 +16,6 @@ function Projects() {
 
   return (
     <div className="Projects" data-theme='dark'>
-      <Header />
       <h1>My Projects</h1>
       {/* <button onClick={switchTheme}>
         Switch to {theme === 'light' ? 'dark' : 'light'} theme

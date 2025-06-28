@@ -25,16 +25,10 @@ const navItems = [
     path: "/projects",
     name: "Projects",
   },]
-//   let pathname = "/";
 
-    //const [hoveredPath, setHoveredPath] = useState(pathname);
-    // let isActive = item.path === pathname; 
-  
-    const showSelector = (tab) => {
-        alert(tab);
-    };
 
     return(
+        <div className='nav-container'>
             <Navbar className="header w-80">
                 <Container >
                     <Navbar.Brand 
@@ -58,7 +52,7 @@ const navItems = [
                     <div class="vr me-4 nav-separator"></div>
 
                     <div>
-                        <Navbar.Brand href="/experience">
+                        <Navbar.Brand href="#/experience">
 
                         <img
                             alt=""
@@ -68,13 +62,13 @@ const navItems = [
                             className="d-inline-block align-sub text-white me-4"
                             />
 
-                        <Navbar.Brand className="text-white nav-element me-4" href="/experience">Experience</Navbar.Brand>
+                        <Navbar.Brand className="text-white nav-element me-4" href="#/experience">Experience</Navbar.Brand>
                     </Navbar.Brand>
 
                     </div>
                     <div class="vr me-4 nav-separator"></div>
                     <div>
-                        <Navbar.Brand href="/skills">
+                        <Navbar.Brand href="#/skills">
 
                         <img
                             alt=""
@@ -84,13 +78,13 @@ const navItems = [
                             className="d-inline-block align-sub text-white me-4"
                             />
                             
-                        <Navbar.Brand className="text-white nav-element me-4" href="/skills">Skills</Navbar.Brand>
+                        <Navbar.Brand className="text-white nav-element me-4" href="#/skills">Skills</Navbar.Brand>
                         </Navbar.Brand>
 
                     </div>
                 <div class="vr me-4 nav-separator"></div>
                 <div>
-                    <Navbar.Brand href="/projects">
+                    <Navbar.Brand href="#/projects">
 
                     <img
                         alt=""
@@ -99,14 +93,14 @@ const navItems = [
                         height="25"
                         className="d-inline-block align-sub text-white me-4"
                         />
-                    <Navbar.Brand className="text-white nav-element me-4" href="/projects">Projects</Navbar.Brand>
+                    <Navbar.Brand className="text-white nav-element me-4" href="#/projects">Projects</Navbar.Brand>
                     </Navbar.Brand>
 
                     </div>
                 </Container>
                 
             </Navbar>
-        
+        </div>
     );
 }
 export default Header;

@@ -16,7 +16,6 @@ function Skills() {
 
   return (
     <div className="Skills" data-theme='dark'>
-      <Header />
       <h1>My Skills</h1>
       {/* <button onClick={switchTheme}>
         Switch to {theme === 'light' ? 'dark' : 'light'} theme

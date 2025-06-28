@@ -19,7 +19,6 @@ function Home() {
 
   return (
     <div className="Home" data-theme='dark'>
-      <Header />
       <div className='home-page'>
         <h1 className='title'>Alexandra Kopelcheck</h1>
         <Card2 
