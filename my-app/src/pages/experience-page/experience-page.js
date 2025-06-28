@@ -32,7 +32,7 @@ function Experience() {
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 2 }}
+                    transition={{ duration: 1 }}
                     onClick={() => setOpenIndex(openIndex === 0 ? null : 0)}
                   >
                     <Card className="border-0 shadow-sm">
@@ -47,7 +47,7 @@ function Experience() {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: 0.5 }}
                           >
                             ▪ Enhanced leadership and project management 
                             skills through completion of Lean Six Sigma 
@@ -74,7 +74,7 @@ function Experience() {
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 3 }}
+                    transition={{ duration: 1 }}
                     onClick={() => setOpenIndex(openIndex === 1 ? null : 1)}
 
                   >
@@ -89,7 +89,7 @@ function Experience() {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: .5 }}
                           >
                           ▪ Continued development on an internally facing 
                             vendor logo page for Nationwide associates
@@ -108,7 +108,7 @@ function Experience() {
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 3 }}
+                    transition={{ duration: 1 }}
                     onClick={() => setOpenIndex(openIndex === 2 ? null : 2)}
 
                   >
@@ -124,7 +124,7 @@ function Experience() {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: .5}}
                           >
                            ▪ Helped develop and maintain the frontend codebase for the website of Ohio's leading liquor distributor        
                            <br></br>
@@ -151,7 +151,7 @@ function Experience() {
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 3 }}
+                    transition={{ duration: 1 }}
                     onClick={() => setOpenIndex(openIndex === 3 ? null : 3)}
 
                   >
