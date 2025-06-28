@@ -12,6 +12,13 @@
   width: auto;
   
 }
+@media (max-width: 640px){
+  .Home{
+    width: 100%;
+    overflow-x: hidden;
+
+  }
+}
 
 .home-page {
   background-color: var(--bgAccent3) !important;
