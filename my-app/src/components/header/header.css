@@ -27,6 +27,10 @@
     /*font-family: 'Courier New', monospace;*/
 }
 
+.active-link {
+  background-color: aqua;
+}
+
 .nav-separator {
     height: 40px;
     align-self: center !important;

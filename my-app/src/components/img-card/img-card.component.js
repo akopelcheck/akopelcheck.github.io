@@ -3,8 +3,8 @@ function ImageCard(props){
         <img
             alt=""
             src={require('../../img/' + props.name)} 
-            width="500"
-            height="400"
+            width={props.w}
+            height={props.h}
             className="d-inline-block align-center"
             />
     )

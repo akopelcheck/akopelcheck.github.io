@@ -1,17 +1,35 @@
 .Home {
   text-align: center;
   color: var(--text);
-  background-color: var(--bgAccent1);
+  background-color: var(--bgAccent1) !important;
   font-size: large;
   font-weight: bold;
-  padding: 20px;
+  padding: 30px;
   height: calc(100vh - 40px);
   transition: all .5s;
+  position:absolute;
+  height: auto;
+  
 }
+
+.home-page {
+  background-color: var(--bgAccent3) !important;
+  border-radius: 15px !important;
+  height: auto;
+  padding-bottom: 20px;
+
+}
+
 button {
   color: var(--text);
   background-color: var(--bgAccent2);
   border: 2px var(--text) solid;
   float: right;
   transition: all .5s;
+}
+
+.title {
+  padding: 20px;
+  text-align: center !important;
+  margin-bottom: 20px;
 }

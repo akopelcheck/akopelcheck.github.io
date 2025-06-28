@@ -1,8 +1,35 @@
 .card {
-  background-color: var(--bgAccent2);
-  color: var(--text);
-  border-radius: 8px;
-  padding: 10px;
+  background-color: var(--bgAccent2) !important;
+  color: var(--text) !important;
+  border-radius: 20px !important;
+  padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  margin-top: 50px;
+  width: 80%;
+  margin: auto;
+  display: flex !important;
+  margin-bottom: 40px;
 }
+
+.title-card {
+  text-align: start !important;
+  margin-left: 10px;
+  flex:3;
+}
+
+.desc {
+  text-align: start;
+  margin-left: 10px;
+  flex: 3;
+  font-weight: normal
+}
+
+.card-img {
+    border-radius: 20px !important;
+    /*display: inline-block;*/
+   
+    vertical-align: middle;
+}
+
+
