@@ -1,7 +1,4 @@
 import './experience-page.css';
-import useLocalStorage from 'use-local-storage'
-import Header from '../../components/header/header.component'
-import ImageCard from '../../components/img-card/img-card.component';
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -18,91 +15,54 @@ function Experience() {
           <Container className="timeline-container py-5">
             <div className="timeline-line" />
             <Card.Body className='timeline-year-1'>
-              <Card.Title>2023</Card.Title>
+              <Card.Title>2025</Card.Title>
             </Card.Body>
              <Card.Body className='timeline-year-2'>
               <Card.Title>2024</Card.Title>
             </Card.Body>
             <Card.Body className='timeline-year-3'>
-              <Card.Title>2025</Card.Title>
+              <Card.Title>2023</Card.Title>
             </Card.Body>
 
             <Row className="timeline-row" key={0}>                
-                <Col md={6} className="timeline-col-nationwide">
+                <Col md={6} className="timeline-col-dsl">
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
-                    onClick={() => setOpenIndex(openIndex === 0 ? null : 0)}
+                    onClick={() => setOpenIndex(openIndex === 3 ? null : 3)}
+
                   >
                     <Card className="border-0 shadow-sm">
                       <Card.Body>
-                        <Card.Title>Nationwide</Card.Title>
-                        <Card.Subtitle className="mb-2 text-white">Summer 2023</Card.Subtitle>
+                        <Card.Title>Ohio State Driving Simulation Lab</Card.Title>
+                        <Card.Subtitle className="mb-2 text-white">Fall 2022 - Summer 2025</Card.Subtitle>
                         <AnimatePresence>
-                            {openIndex === 0 && (
+                          {openIndex === 3 && (
 
                           <motion.p
                             className="mt-3 fw-normal"
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.5 }}
+                            transition={{ duration: 0.3 }}
                           >
-                            ▪ Enhanced leadership and project management 
-                            skills through completion of Lean Six Sigma 
-                            Yellow Belt certification               
-                            <br></br>
-                            <br></br>
-                            ▪ Completed extensive research on generative
-                             artificial intelligence technologies emerging 
-                             in Fortune 500 companies
-                            <br></br>
-                            <br></br>
-                            ▪ Led development on an internally facing 
-                            vendor logo page for Nationwide associates 
-                            using Figma 
+                                ▪ Develop simulation scenarios using SimCreator and JavaScript to help advance driving-related research       
+                                <br></br>
+                                <br></br>
+                                ▪ Capture and consolidate driving data such as lane position and speed with Python to discover relevant insights and trends 
+                                <br></br>
+                                <br></br>
+                                ▪ Developed an application for driving data analysis using Python 
                           </motion.p>  
-                            )}
+                          )}
                         </AnimatePresence>
                       </Card.Body>
                     </Card>
                   </motion.div>
                 </Col>
 
-                <Col md={6} className="timeline-col-nwsw">
-                  <motion.div
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 1 }}
-                    onClick={() => setOpenIndex(openIndex === 1 ? null : 1)}
-
-                  >
-                    <Card className="border-0 shadow-sm">
-                      <Card.Body>
-                        <Card.Title>Nationwide Student Worker</Card.Title>
-                        <Card.Subtitle className="mb-2 text-white">Fall 2023</Card.Subtitle>
-                        <AnimatePresence>
-                        {openIndex === 1 && (
-                          <motion.p
-                            className="mt-3 fw-normal"
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: "auto" }}
-                            exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: .5 }}
-                          >
-                          ▪ Continued development on an internally facing 
-                            vendor logo page for Nationwide associates
-                            <br></br>
-                            <br></br> 
-                          ▪ Presented the designs to the Nationwide CTO   
-                          </motion.p>  
-                        )}
-                        </AnimatePresence>
-                      </Card.Body>
-                    </Card>
-                  </motion.div>
-                </Col>
+                
 
                 <Col md={6} className="timeline-col-willowtree">
                   <motion.div
@@ -147,37 +107,76 @@ function Experience() {
                   </motion.div>
                 </Col>
 
-                <Col md={6} className="timeline-col-dsl">
+                <Col md={6} className="timeline-col-nwsw">
                   <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
-                    onClick={() => setOpenIndex(openIndex === 3 ? null : 3)}
+                    onClick={() => setOpenIndex(openIndex === 1 ? null : 1)}
 
                   >
                     <Card className="border-0 shadow-sm">
                       <Card.Body>
-                        <Card.Title>OSU DSL</Card.Title>
-                        <Card.Subtitle className="mb-2 text-white">Fall 2022 - Summer 2025</Card.Subtitle>
+                        <Card.Title>Nationwide Student Worker</Card.Title>
+                        <Card.Subtitle className="mb-2 text-white">Fall 2023</Card.Subtitle>
                         <AnimatePresence>
-                          {openIndex === 3 && (
+                        {openIndex === 1 && (
+                          <motion.p
+                            className="mt-3 fw-normal"
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: "auto" }}
+                            exit={{ opacity: 0, height: 0 }}
+                            transition={{ duration: .5 }}
+                          >
+                          ▪ Continued development on an internally facing 
+                            vendor logo page for Nationwide associates
+                            <br></br>
+                            <br></br> 
+                          ▪ Presented the designs to the Nationwide CTO   
+                          </motion.p>  
+                        )}
+                        </AnimatePresence>
+                      </Card.Body>
+                    </Card>
+                  </motion.div>
+                </Col>
+
+                <Col md={6} className="timeline-col-nationwide">
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1 }}
+                    onClick={() => setOpenIndex(openIndex === 0 ? null : 0)}
+                  >
+                    <Card className="border-0 shadow-sm">
+                      <Card.Body>
+                        <Card.Title>Nationwide</Card.Title>
+                        <Card.Subtitle className="mb-2 text-white">Summer 2023</Card.Subtitle>
+                        <AnimatePresence>
+                            {openIndex === 0 && (
 
                           <motion.p
                             className="mt-3 fw-normal"
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: "auto" }}
                             exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.3 }}
+                            transition={{ duration: 0.5 }}
                           >
-                                ▪ Develop simulation scenarios using SimCreator and JavaScript to help advance driving-related research       
-                                <br></br>
-                                <br></br>
-                                ▪ Capture and consolidate driving data such as lane position and speed with Python to discover relevant insights and trends 
-                                <br></br>
-                                <br></br>
-                                ▪ Developed an application for driving data analysis using Python 
+                            ▪ Enhanced leadership and project management 
+                            skills through completion of Lean Six Sigma 
+                            Yellow Belt certification               
+                            <br></br>
+                            <br></br>
+                            ▪ Completed extensive research on generative
+                             artificial intelligence technologies emerging 
+                             in Fortune 500 companies
+                            <br></br>
+                            <br></br>
+                            ▪ Led development on an internally facing 
+                            vendor logo page for Nationwide associates 
+                            using Figma 
                           </motion.p>  
-                          )}
+                            )}
                         </AnimatePresence>
                       </Card.Body>
                     </Card>

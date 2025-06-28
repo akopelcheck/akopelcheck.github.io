@@ -1,27 +1,17 @@
-//import './home-page.css';
-import Card from '../../components/card/card.component'
-import useLocalStorage from 'use-local-storage'
-import Header from '../../components/header/header.component'
-import ImageCard from '../../components/img-card/img-card.component';
+import './skills-page.css';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { motion, AnimatePresence } from 'framer-motion';
+
 
 function Skills() {
 
- const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
- const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
-
-  const switchTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme)
-  }
-
   return (
     <div className="Skills" data-theme='dark'>
-      <h1>My Skills</h1>
-      {/* <button onClick={switchTheme}>
-        Switch to {theme === 'light' ? 'dark' : 'light'} theme
-      </button> */}
+      <div className='skills-page'>
+        <h1 className='title'>My Skills</h1>
+      </div>
     </div>
   );
 }
 
-export default Skills;
+export default Skills

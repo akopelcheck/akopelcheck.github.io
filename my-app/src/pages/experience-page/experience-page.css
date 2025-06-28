@@ -79,7 +79,7 @@
 
 .timeline-year-3 {
     background-color: var(--bgAccent2) !important;
-    margin-top: 70%;
+    margin-top: 80%;
     position: absolute;
     left: 47%;
     width:auto;
@@ -95,24 +95,24 @@
   margin-bottom: 60px;
 }
 
-.timeline-col-nationwide {
+.timeline-col-dsl {
   position: relative;
   z-index: 2;
 margin-top: 10%;
 
 }
-.timeline-col-nwsw {
+.timeline-col-willowtree {
   position: relative;
   z-index: 2;
   margin-top: 28%;
 }
-.timeline-col-dsl {
+.timeline-col-nationwide {
   position: relative;
   z-index: 2;
-  margin-top: 40%;
+  margin-top: 35%;
 
 }
-.timeline-col-willowtree {
+.timeline-col-nwsw {
   position: relative;
   z-index: 2;
   margin-top: 8%;
