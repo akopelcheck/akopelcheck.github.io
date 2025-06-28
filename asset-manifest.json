@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9137ac24.css",
-    "main.js": "/static/js/main.81fd247d.js",
+    "main.css": "/static/css/main.3ba728af.css",
+    "main.js": "/static/js/main.9f33932d.js",
     "static/media/IMG_1588.jpg": "/static/media/IMG_1588.57b1fc529f4080958fcd.jpg",
     "static/media/smile.JPG": "/static/media/smile.a0a42e7c2afd96583af8.JPG",
     "static/media/Profile_pic.jpg": "/static/media/Profile_pic.376f68242a190a00a354.jpg",
+    "static/media/Alexandra-Kopelcheck-Resume-2025 (1).pdf": "/static/media/Alexandra-Kopelcheck-Resume-2025 (1).1a826609b090e013d0cb.pdf",
     "static/media/icon-me.png": "/static/media/icon-me.8e011e06cb7c7bb0f851.png",
     "static/media/skills-icon.png": "/static/media/skills-icon.5a2911c71fdf46500856.png",
+    "static/media/unoffical-transcript-2025.pdf": "/static/media/unoffical-transcript-2025.f1943de9d1371f01e320.pdf",
     "static/media/project-icon.png": "/static/media/project-icon.76bc3e71b374e92bd406.png",
     "static/media/experience-icon.png": "/static/media/experience-icon.b6c9f70b5243c95ca09f.png",
     "index.html": "/index.html",
-    "main.9137ac24.css.map": "/static/css/main.9137ac24.css.map",
-    "main.81fd247d.js.map": "/static/js/main.81fd247d.js.map"
+    "main.3ba728af.css.map": "/static/css/main.3ba728af.css.map",
+    "main.9f33932d.js.map": "/static/js/main.9f33932d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9137ac24.css",
-    "static/js/main.81fd247d.js"
+    "static/css/main.3ba728af.css",
+    "static/js/main.9f33932d.js"
   ]
 }
