@@ -1,0 +1,21 @@
+.Projects {
+  text-align: center;
+  color: var(--text);
+  background-color: var(--bgAccent1) !important;
+  font-size: large;
+  font-weight: bold;
+  padding: 0 30px;
+  transition: all .5s;
+  position:absolute;
+  height: auto;
+  width: 100%;
+  
+}
+
+.proj-page {
+  background-color: var(--bgAccent3) !important;
+  border-radius: 20px !important;
+  height: auto;
+  padding-bottom: 20px;
+
+}

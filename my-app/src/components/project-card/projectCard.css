@@ -1,0 +1,28 @@
+.title-card {
+  text-align: start !important;
+  margin-left: 10px;
+  flex:3;
+  font-size: x-large;
+
+}
+
+.desc {
+  text-align: start;
+  margin-left: 10px;
+  flex: 3;
+  font-weight: normal;
+}
+
+.subtitle-card {
+text-align: start !important;
+  margin-left: 10px;
+  flex:3;
+  font-size: large;
+  padding: 5px  0px;
+  padding-bottom: 10px;
+}
+
+.project-card-img {
+    border-radius: 10px !important;
+    vertical-align: middle;
+}
