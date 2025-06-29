@@ -5,6 +5,7 @@ import Header from '../../components/header/header.component'
 import ImageCard from '../../components/img-card/img-card.component';
 import resume from "../../pdfs/Alexandra-Kopelcheck-Resume-2025 (1).pdf"
 import transcript from "../../pdfs/unoffical-transcript-2025.pdf"
+import { motion, AnimatePresence } from 'framer-motion';
 
 
 function Home() {
@@ -21,6 +22,10 @@ function Home() {
     <div className="Home" data-theme='dark'>
       <div className='home-page'>
         <h1 className='title'>Alexandra Kopelcheck</h1>
+         <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}>
         <Card2 
           title="About Me!" 
           description="I'm a recent graduate from The Ohio State University, 
@@ -50,7 +55,11 @@ function Home() {
           imgW="200"
           imgH="200"
         />
-
+        </motion.div>
+        <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}>
         <Card2 
           title="Documents" 
           description={
@@ -62,7 +71,11 @@ function Home() {
           } 
           hasImg={false}
         />
-
+        </motion.div>
+        <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1 }}>
         <Card2 
           title="Socials" 
           description={
@@ -74,6 +87,7 @@ function Home() {
           } 
           hasImg={false}
         />
+        </motion.div>
      </div>
     </div>
   );
