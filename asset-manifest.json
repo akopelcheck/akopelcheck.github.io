@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e45528a.css",
-    "main.js": "/static/js/main.e8d25e2c.js",
+    "main.css": "/static/css/main.3d18df21.css",
+    "main.js": "/static/js/main.5b3e6b20.js",
     "static/media/IMG_1588.jpg": "/static/media/IMG_1588.57b1fc529f4080958fcd.jpg",
     "static/media/smile.JPG": "/static/media/smile.a0a42e7c2afd96583af8.JPG",
     "static/media/Profile_pic.jpg": "/static/media/Profile_pic.376f68242a190a00a354.jpg",
+    "static/media/personalweb.JPG": "/static/media/personalweb.85bd78629d0f53aa5161.JPG",
+    "static/media/countcalorie.JPG": "/static/media/countcalorie.1889656dfc8b1bbb202d.JPG",
     "static/media/Alexandra-Kopelcheck-Resume-2025 (1).pdf": "/static/media/Alexandra-Kopelcheck-Resume-2025 (1).1a826609b090e013d0cb.pdf",
     "static/media/icon-me.png": "/static/media/icon-me.8e011e06cb7c7bb0f851.png",
+    "static/media/gameofset.JPG": "/static/media/gameofset.b0f2412de95ed81420a7.JPG",
+    "static/media/hotshot.JPG": "/static/media/hotshot.7022fb47317dfe92003f.JPG",
+    "static/media/Nationwide.jpg": "/static/media/Nationwide.21c93eb8487913603edc.jpg",
+    "static/media/datplot.JPG": "/static/media/datplot.923c2ba5e76bd14932ae.JPG",
     "static/media/skills-icon.png": "/static/media/skills-icon.5a2911c71fdf46500856.png",
     "static/media/unoffical-transcript-2025.pdf": "/static/media/unoffical-transcript-2025.f1943de9d1371f01e320.pdf",
+    "static/media/healthhub.JPG": "/static/media/healthhub.93665de2c31b8e391e3e.JPG",
     "static/media/project-icon.png": "/static/media/project-icon.76bc3e71b374e92bd406.png",
     "static/media/experience-icon.png": "/static/media/experience-icon.b6c9f70b5243c95ca09f.png",
     "index.html": "/index.html",
-    "main.0e45528a.css.map": "/static/css/main.0e45528a.css.map",
-    "main.e8d25e2c.js.map": "/static/js/main.e8d25e2c.js.map"
+    "main.3d18df21.css.map": "/static/css/main.3d18df21.css.map",
+    "main.5b3e6b20.js.map": "/static/js/main.5b3e6b20.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e45528a.css",
-    "static/js/main.e8d25e2c.js"
+    "static/css/main.3d18df21.css",
+    "static/js/main.5b3e6b20.js"
   ]
 }
