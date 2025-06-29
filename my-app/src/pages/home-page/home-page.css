@@ -20,6 +20,16 @@
   }
 }
 
+.doc-row {
+   display: flex;
+   justify-content: center !important;
+   align-items: center;
+}
+
+.doc-col {
+  margin: auto !important;
+}
+
 .home-page {
   background-color: var(--bgAccent3) !important;
   border-radius: 20px !important;

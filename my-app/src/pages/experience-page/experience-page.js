@@ -33,7 +33,7 @@ function Experience() {
                     onClick={() => setOpenIndex(openIndex === 3 ? null : 3)}
 
                   >
-                    <Card className="border-0 shadow-sm">
+                    <Card className="border-0 shadow-sm card-hover">
                       <Card.Body>
                         <Card.Title>Ohio State Driving Simulation Lab</Card.Title>
                         <Card.Subtitle className="mb-2 text-white">Fall 2022 - Summer 2025</Card.Subtitle>
@@ -72,7 +72,7 @@ function Experience() {
                     onClick={() => setOpenIndex(openIndex === 2 ? null : 2)}
 
                   >
-                    <Card className="border-0 shadow-sm">
+                    <Card className="border-0 shadow-sm card-hover">
                       <Card.Body>
                         <Card.Title>WillowTree</Card.Title>
                         <Card.Subtitle className="mb-2 text-white">Summer 2024</Card.Subtitle>
@@ -115,7 +115,7 @@ function Experience() {
                     onClick={() => setOpenIndex(openIndex === 1 ? null : 1)}
 
                   >
-                    <Card className="border-0 shadow-sm">
+                    <Card className="border-0 shadow-sm card-hover">
                       <Card.Body>
                         <Card.Title>Nationwide Student Worker</Card.Title>
                         <Card.Subtitle className="mb-2 text-white">Fall 2023</Card.Subtitle>
@@ -148,7 +148,7 @@ function Experience() {
                     transition={{ duration: 1 }}
                     onClick={() => setOpenIndex(openIndex === 0 ? null : 0)}
                   >
-                    <Card className="border-0 shadow-sm">
+                    <Card className="border-0 shadow-sm card-hover">
                       <Card.Body>
                         <Card.Title>Nationwide</Card.Title>
                         <Card.Subtitle className="mb-2 text-white">Summer 2023</Card.Subtitle>

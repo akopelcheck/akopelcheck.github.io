@@ -101,6 +101,14 @@
 margin-top: 10%;
 
 }
+
+.card-hover:hover {
+  background-color: #f8f9fa; /* light gray or whatever you prefer */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* stronger shadow on hover */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
 .timeline-col-willowtree {
   position: relative;
   z-index: 2;
