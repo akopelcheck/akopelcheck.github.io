@@ -12,6 +12,10 @@
   
 }
 
+.btn-check:checked {
+    background-color: antiquewhite !important;
+}
+
 .skills-page {
   background-color: var(--bgAccent3) !important;
   border-radius: 20px !important;

@@ -56,7 +56,7 @@ function Skills() {
         <ToggleButtonGroup className='toggle-group' type="radio" name="filter" defaultValue={0}>
         {radios.map((radio, idx) => (
           <ToggleButton
-           className='toggle-button'
+           className='toggle-button' 
             key={idx}
             id={`radio-${idx}`}
             type="radio"

@@ -8,23 +8,6 @@ import { useState } from "react";
 import './header.css'
 
 function Header(){
-const navItems = [
-  {
-    path: "/",
-    name: "Home",
-  },
-  {
-    path: "/experience",
-    name: "Experience",
-  },
-  {
-    path: "/skills",
-    name: "Skills",
-  },
-  {
-    path: "/projects",
-    name: "Projects",
-  },]
 
 
     return(
@@ -41,6 +24,8 @@ const navItems = [
                                 className="d-inline-block align-sub text-white me-4" 
                             />
                     </Navbar.Brand>
+                      <motion.div
+                    whileHover={{ scale: 1.2}}>
                     <Navbar.Brand 
                         className="text-white nav-element me-4" 
                         href="/"
@@ -49,9 +34,12 @@ const navItems = [
                         // onMouseLeave={() => setHoveredPath(pathname)}
                         >About Me!
                     </Navbar.Brand>
+                    </motion.div>
                     <div class="vr me-4 nav-separator"></div>
 
                     <div>
+                      <motion.div
+                        whileHover={{ scale: 1.2}}>
                         <Navbar.Brand href="#/experience">
 
                         <img
@@ -64,10 +52,12 @@ const navItems = [
 
                         <Navbar.Brand className="text-white nav-element me-4" href="#/experience">Experience</Navbar.Brand>
                     </Navbar.Brand>
-
+                    </motion.div>
                     </div>
                     <div class="vr me-4 nav-separator"></div>
                     <div>
+                    <motion.div
+                        whileHover={{ scale: 1.2}}>
                         <Navbar.Brand href="#/skills">
 
                         <img
@@ -80,10 +70,12 @@ const navItems = [
                             
                         <Navbar.Brand className="text-white nav-element me-4" href="#/skills">Skills</Navbar.Brand>
                         </Navbar.Brand>
-
+                    </motion.div>
                     </div>
                 <div class="vr me-4 nav-separator"></div>
                 <div>
+                <motion.div
+                        whileHover={{ scale: 1.2}}>
                     <Navbar.Brand href="#/projects">
 
                     <img
@@ -95,7 +87,7 @@ const navItems = [
                         />
                     <Navbar.Brand className="text-white nav-element me-4" href="#/projects">Projects</Navbar.Brand>
                     </Navbar.Brand>
-
+                    </motion.div>
                     </div>
                 </Container>
                 

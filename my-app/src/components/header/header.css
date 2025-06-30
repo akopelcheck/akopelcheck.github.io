@@ -28,6 +28,43 @@
     /*font-family: 'Courier New', monospace;*/
 }
 
+.nav-links-container > div {
+    padding: 4px 8px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.nav-highlight-border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #00ffcc; /* Customize the color */
+    border-radius: 8px;
+    z-index:1;
+}
+.nav-tabs-wrapper {
+    position: relative;
+    display: flex;
+    gap: 12px;
+    padding-left: 20px;
+}
+
+.nav-tab {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.nav-highlight-border {
+    position: absolute;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    z-index: 0;
+}
+
 .active-link {
   background-color: aqua;
 }
